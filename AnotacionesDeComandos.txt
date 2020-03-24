@@ -36,3 +36,19 @@ git branch nombreVersion <- crea una nueva version del proyecto,
 git checkout branchName <- puedo crear el branch, pero si quiero
                             trabajar en esa versión del proyecto
                             debo ingresar a esa rama con este comando
+
+Cuando quería usar GitHub desde la consola, me daba el siguiente error
+tratando de agregar el repositorio:
+
+git remote add origin git@github.com:Josh01B/git-course-test.git
+fatal: remote origin already exists.
+
+En los tutoriales, lo que se copia es un HTTPS, pero en mi cuenta de
+forma predeterminada yo tenía SSH y no me servía al probar el comando:
+git push -u origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Entonces, al ver el error lo cambié a HTTPS, y antes de volverlo a
+agregar removí el repositorio anterior con: git remote remove origin
+Ingresé mi nombre de usuario y contraseña, y listo, lo logré.
