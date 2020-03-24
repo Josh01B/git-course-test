@@ -1,0 +1,8 @@
+Anotaciones de comandos
+
+git init
+git status
+git add fileName
+git commit
+git checkout <- restaura
+git diff fileName <- muestra los cambios en un archivo
