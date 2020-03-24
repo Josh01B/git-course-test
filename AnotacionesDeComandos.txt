@@ -16,4 +16,4 @@ git config --global user.name "Josué Bonilla"
 
 git checkout fileName <- restaura el archivo nombredo
 git diff fileName <- muestra los cambios en un archivo
-git log <- para ver el registro de los commits
+git log <- para ver el registro de los commits, las versiones/snapshots del proyecto a través del tiempo
