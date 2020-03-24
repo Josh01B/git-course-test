@@ -6,3 +6,4 @@ git add fileName
 git commit
 git checkout <- restaura
 git diff fileName <- muestra los cambios en un archivo
+git log <- para ver los commits
