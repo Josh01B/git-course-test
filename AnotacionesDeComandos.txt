@@ -19,10 +19,11 @@ git diff fileName <- muestra los cambios en un archivo
 git log <- para ver el registro de los commits, las versiones/snapshots del proyecto a través del tiempo
 
 .gitignore <- si dentro de la carpeta de trabajo coloco un archivo
-              con este nombre, los nombres de archivos o carpetas
-              que estén en este documento, no serán incluidos en
-              las actualizaciones, ni agregados. Como dice el nom-
-              bre serán completamente ignorados por Git.
+              con este nombre, los nombres de las carpetas o
+              archivos (con su respectiva extensión) que estén en
+              este documento, no serán incluidos en los agregados,
+              ni actualizaciones en el repositorio. Serán completa-
+              mente ignorados por Git, como si no existieran.
               Un buen toque: En la terminal puedo distinguir un
               archivo de una carpeta si al final del nombre tiene
-              un backslash "\"
+              un backslash "\".
