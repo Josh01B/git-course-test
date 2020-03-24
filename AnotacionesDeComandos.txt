@@ -29,3 +29,10 @@ git log <- para ver el registro de los commits, las versiones/snapshots del proy
               un backslash "\".
 
 git commit -m "aquí coloco el comentario que quiera" <- así no entro al editor de código
+git branch <- muestra las versiones/ramas que tiene del código
+git branch nombreVersion <- crea una nueva version del proyecto,
+                            otra rama sobre la cual trabaja
+                            crea una versión alternativa
+git checkout branchName <- puedo crear el branch, pero si quiero
+                            trabajar en esa versión del proyecto
+                            debo ingresar a esa rama con este comando
