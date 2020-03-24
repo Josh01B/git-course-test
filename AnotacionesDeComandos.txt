@@ -4,6 +4,16 @@ git init
 git status
 git add fileName
 git commit
-git checkout <- restaura
+git commit -a
+
+Para hacer un commit, git en su control de versiones necesita
+tener un control de quién hace cambios, por lo que el usuario
+deberá ligarse a un correo electrónico, y aproveche para
+identificarse con un nombre/nickname. Los siguientes 2 coman-
+dos indican que en este sistema operativo trabajará tal usuario
+git config --global user.email "bonillajosue1@gmail.com"
+git config --global user.name "Josué Bonilla"
+
+git checkout fileName <- restaura el archivo nombredo
 git diff fileName <- muestra los cambios en un archivo
-git log <- para ver los commits
+git log <- para ver el registro de los commits
