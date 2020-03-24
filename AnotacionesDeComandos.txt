@@ -27,3 +27,5 @@ git log <- para ver el registro de los commits, las versiones/snapshots del proy
               Un buen toque: En la terminal puedo distinguir un
               archivo de una carpeta si al final del nombre tiene
               un backslash "\".
+
+git commit -m "aquí coloco el comentario que quiera" <- así no entro al editor de código
